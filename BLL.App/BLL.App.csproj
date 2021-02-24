@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ee.itcollege.carwash.kristjan.BLL.Base" Version="1.0.1" />
+      <PackageReference Include="ee.itcollege.carwash.kristjan.Contracts.BLL.Base" Version="1.0.1" />
+      <PackageReference Include="ee.itcollege.carwash.kristjan.DAL.Base" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contracts.BLL.App\Contracts.BLL.App.csproj" />
+      <ProjectReference Include="..\Contracts.DAL.App\Contracts.DAL.App.csproj" />
+    </ItemGroup>
+
+</Project>

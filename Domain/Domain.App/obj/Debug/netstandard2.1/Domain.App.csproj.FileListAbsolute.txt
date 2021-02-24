@@ -1,0 +1,9 @@
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\bin\Debug\netstandard2.1\Domain.App.deps.json
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\bin\Debug\netstandard2.1\Domain.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\bin\Debug\netstandard2.1\Domain.App.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.csprojAssemblyReference.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.AssemblyInfoInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.AssemblyInfo.cs
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.csproj.CoreCompileInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\Domain\Domain.App\obj\Debug\netstandard2.1\Domain.App.pdb

@@ -1,0 +1,16 @@
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.deps.json
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.EF.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.DTO.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\Domain.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\Contracts.DAL.App.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\DAL.App.DTO.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\bin\Debug\netstandard2.1\Domain.App.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.csprojAssemblyReference.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.AssemblyInfoInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.AssemblyInfo.cs
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.csproj.CoreCompileInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.csproj.CopyComplete
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.EF\obj\Debug\netstandard2.1\DAL.App.EF.pdb

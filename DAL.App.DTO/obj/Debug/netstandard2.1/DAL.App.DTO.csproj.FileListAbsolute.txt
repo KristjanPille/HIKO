@@ -1,0 +1,9 @@
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\bin\Debug\netstandard2.1\DAL.App.DTO.deps.json
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\bin\Debug\netstandard2.1\DAL.App.DTO.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\bin\Debug\netstandard2.1\DAL.App.DTO.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.csprojAssemblyReference.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.AssemblyInfoInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.AssemblyInfo.cs
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.csproj.CoreCompileInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\DAL.App.DTO\obj\Debug\netstandard2.1\DAL.App.DTO.pdb

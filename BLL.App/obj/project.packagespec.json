@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App\\BLL.App.csproj",
+    "projectName": "BLL.App",
+    "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App\\BLL.App.csproj",
+    "outputPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.BLL.App\\Contracts.BLL.App.csproj": {
+            "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.BLL.App\\Contracts.BLL.App.csproj"
+          },
+          "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.DAL.App\\Contracts.DAL.App.csproj": {
+            "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.DAL.App\\Contracts.DAL.App.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "ee.itcollege.carwash.kristjan.BLL.Base": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "ee.itcollege.carwash.kristjan.Contracts.BLL.Base": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "ee.itcollege.carwash.kristjan.DAL.Base": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "NETStandard.Library": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

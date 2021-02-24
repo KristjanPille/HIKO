@@ -1,0 +1,14 @@
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\PublicApi.DTO.v1.deps.json
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\PublicApi.DTO.v1.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\PublicApi.DTO.v1.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\BLL.App.DTO.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\Domain.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\BLL.App.DTO.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\bin\Debug\netstandard2.1\Domain.App.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.csprojAssemblyReference.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.AssemblyInfoInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.AssemblyInfo.cs
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.csproj.CoreCompileInputs.cache
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.csproj.CopyComplete
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\PublicApi.DTO.v1\obj\Debug\netstandard2.1\PublicApi.DTO.v1.pdb

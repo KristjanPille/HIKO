@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "wtiEXU/Qh96Mmm1ynDg7FkUXymo7d4g3TmEcLe5aL/j9Vh1LO2IkUiY1ex02OZLUYDU3ZVR3KfTXoTou0dZqzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.BLL.App\\Contracts.BLL.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kristjan\\.nuget\\packages\\carwash.kristjan.contracts.domain\\1.0.0\\carwash.kristjan.contracts.domain.1.0.0.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\ee.itcollege.carwash.kristjan.contracts.bll.base\\1.0.1\\ee.itcollege.carwash.kristjan.contracts.bll.base.1.0.1.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\ee.itcollege.carwash.kristjan.contracts.dal.base\\1.0.1\\ee.itcollege.carwash.kristjan.contracts.dal.base.1.0.1.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\ee.itcollege.carwash.kristjan.contracts.domain\\1.0.1\\ee.itcollege.carwash.kristjan.contracts.domain.1.0.1.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.3\\microsoft.extensions.identity.core.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.3\\microsoft.extensions.identity.stores.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
