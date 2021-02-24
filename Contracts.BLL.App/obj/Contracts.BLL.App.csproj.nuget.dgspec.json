@@ -96,6 +96,9 @@
               },
               "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.DAL.App\\Contracts.DAL.App.csproj": {
                 "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.DAL.App\\Contracts.DAL.App.csproj"
+              },
+              "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\PublicApi.DTO.v1.csproj": {
+                "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\PublicApi.DTO.v1.csproj"
               }
             }
           }
@@ -240,6 +243,177 @@
         "netstandard2.1": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.Contracts.Domain": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\Domain.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\Domain.App.csproj",
+        "projectName": "Domain.App",
+        "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\Domain.App.csproj",
+        "packagesPath": "C:\\Users\\kristjan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kristjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "ee.itcollege.carwash.kristjan.Domain.Base": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\PublicApi.DTO.v1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\PublicApi.DTO.v1.csproj",
+        "projectName": "PublicApi.DTO.v1",
+        "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\PublicApi.DTO.v1.csproj",
+        "packagesPath": "C:\\Users\\kristjan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\PublicApi.DTO.v1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kristjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj": {
+                "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj"
+              },
+              "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\Domain.App.csproj": {
+                "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Domain\\Domain.App\\Domain.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "ee.itcollege.carwash.kristjan.Contracts.DAL.Base": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ee.itcollege.carwash.kristjan.Contracts.Domain": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ee.itcollege.carwash.kristjan.DAL.Base": {
               "target": "Package",
               "version": "[1.0.1, )"
             }

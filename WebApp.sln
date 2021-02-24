@@ -25,6 +25,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.App", "BLL.App\BLL.App.csproj", "{A7061BD0-A0CB-45D9-85B1-15A56484A915}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionFiles", "_SolutionFiles", "{F56FC7A7-9D46-4392-A8CC-E30DD2790406}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{FEBD47D6-4CCF-4FBF-9A60-004E5EE00894}"
 EndProject

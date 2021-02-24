@@ -3568,6 +3568,7 @@
         "dependencies": {
           "BLL.App.DTO": "1.0.0",
           "Contracts.DAL.App": "1.0.0",
+          "PublicApi.DTO.v1": "1.0.0",
           "ee.itcollege.carwash.kristjan.Contracts.BLL.Base": "1.0.1"
         },
         "compile": {
