@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "knVeSRZn8bccFfCuKvCWRBA3wj/1gI+QR/Utfg0qmGsjLjKTMhN1vFSlktkJJ1NQeQZ7Ryj7yu9cUXfTb3BP6Q==",
+  "dgSpecHash": "ajXyeWgHqwEIhQW7OtkreLmNaXB08PyEe6/chV/M6IV0ZbFJMVz1aIIM5EY4ktdvI4gSYxPqvDBpKzKdx2/Y3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kristjan\\.nuget\\packages\\ee.itcollege.carwash.kristjan.contracts.domain\\1.0.1\\ee.itcollege.carwash.kristjan.contracts.domain.1.0.1.nupkg.sha512",
+    "C:\\Users\\kristjan\\.nuget\\packages\\ee.itcollege.carwash.kristjan.contracts.domain\\1.0.2\\ee.itcollege.carwash.kristjan.contracts.domain.1.0.2.nupkg.sha512",
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
@@ -18,12 +18,7 @@
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
-    "C:\\Users\\kristjan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    "C:\\Users\\kristjan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512"
   ],
   "logs": []
 }

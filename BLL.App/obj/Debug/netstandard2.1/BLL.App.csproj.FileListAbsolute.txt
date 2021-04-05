@@ -5,10 +5,14 @@ C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstanda
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Contracts.BLL.App.dll
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Contracts.DAL.App.dll
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\DAL.App.DTO.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Domain.App.dll
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\PublicApi.DTO.v1.dll
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Contracts.BLL.App.pdb
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Contracts.DAL.App.pdb
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\BLL.App.DTO.pdb
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\DAL.App.DTO.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\Domain.App.pdb
+C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\bin\Debug\netstandard2.1\PublicApi.DTO.v1.pdb
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\obj\Debug\netstandard2.1\BLL.App.csprojAssemblyReference.cache
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\obj\Debug\netstandard2.1\BLL.App.AssemblyInfoInputs.cache
 C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\BLL.App\obj\Debug\netstandard2.1\BLL.App.AssemblyInfo.cs

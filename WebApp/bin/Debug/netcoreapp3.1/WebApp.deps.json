@@ -8,9 +8,16 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_1"
+      "NETCOREAPP3_1",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
-    "languageVersion": "8.0",
+    "languageVersion": "9",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -3163,6 +3170,7 @@
         "dependencies": {
           "BLL.App.DTO": "1.0.0",
           "Contracts.DAL.App": "1.0.0",
+          "PublicApi.DTO.v1": "1.0.0",
           "ee.itcollege.carwash.kristjan.Contracts.BLL.Base": "1.0.1"
         },
         "runtime": {

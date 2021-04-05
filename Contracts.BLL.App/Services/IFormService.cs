@@ -7,6 +7,6 @@ namespace Contracts.BLL.App.Services
 {
     public interface IFormService : IBaseEntityService<Form>, IFormRepositoryCustom<Form>
     {
-        PublicApi.DTO.v1.Form CalculateFormResult(Form form);
+        Form CalculateFormResult(Form form);
     }
 }

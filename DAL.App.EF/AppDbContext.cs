@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Domain.App;
 using ee.itcollege.carwash.kristjan.Contracts.DAL.Base;
 using ee.itcollege.carwash.kristjan.Contracts.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using AppRole = Domain.App.Identity.AppRole;
 using AppUser = Domain.App.Identity.AppUser;
 using Form = Domain.App.Form;
@@ -18,6 +21,7 @@ namespace DAL.App.EF
         private readonly IUserNameProvider _userNameProvider;
 
         public DbSet<Form> Forms { get; set; } = default!;
+        public DbSet<WorkingConditions> WorkingConditions { get; set; } = default!;
 
         private readonly Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>> _entityTracker =
             new Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>>();
@@ -35,6 +39,24 @@ namespace DAL.App.EF
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            var IntValueConverter = new IntListToStringValueConverter();
+
+            var valueComparer = new ValueComparer<IEnumerable<int>>(
+                (c1, c2) => c1.SequenceEqual(c2),
+                c => c.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
+                c => c.ToList());
+            
+            builder
+                .Entity<Form>().
+                Property(e => e.BodyPostures).
+                HasConversion(IntValueConverter).Metadata
+                .SetValueComparer(valueComparer);
+            builder
+                .Entity<Form>().
+                Property(e => e.Additional).
+                HasConversion(IntValueConverter).Metadata
+                .SetValueComparer(valueComparer);
 
             // disable cascade delete
             foreach (var relationship in builder.Model
@@ -98,6 +120,33 @@ namespace DAL.App.EF
             var result = base.SaveChangesAsync(cancellationToken);
             UpdateTrackedEntities();
             return result;
+        }
+        
+        public class IntListToStringValueConverter : ValueConverter<IEnumerable<int>, string>
+        {
+            public IntListToStringValueConverter() : base(le => ListToString(le), (s => StringToList(s)))
+            {
+
+            }
+            public static string ListToString(IEnumerable<int> value)
+            {
+                if (value == null || value.Count() == 0)
+                {
+                    return null;
+                }
+
+                return string.Join(", ", value.Select(o => o.ToString()));
+            }
+
+            public static IEnumerable<int> StringToList(string value)
+            {  
+                if (value==null || value==string.Empty)
+                {
+                    return null;
+                }
+
+                return value.Split(',').Select(i => Convert.ToInt32(i)); ;
+            }
         }
     }
 }

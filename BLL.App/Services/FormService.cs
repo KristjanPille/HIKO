@@ -22,92 +22,106 @@ namespace BLL.App.Services
             
         }
 
-        public PublicApi.DTO.v1.Form CalculateFormResult(Form form)
+        public Form CalculateFormResult(Form form)
         {
-            var totalPoints = 0;
             form.LoadWeightPoints = form.Sex switch
             {
-                // Do calculate magic here
                 "men" => form.LoadWeight switch
                 {
-                    5 => 4,
-                    10 => 6,
-                    15 => 8,
-                    20 => 11,
-                    25 => 15,
-                    30 => 25,
-                    35 => 35,
-                    40 => 75,
-                    45 => 100,
+                    1 => 4,
+                    2 => 6,
+                    3 => 8,
+                    4 => 11,
+                    5 => 15,
+                    6 => 25,
+                    7 => 35,
+                    8 => 75,
+                    9 => 100,
                     _ => form.LoadWeightPoints
                 },
                 "women" => form.LoadWeight switch
                 {
-                    5 => 6,
-                    10 => 9,
-                    15 => 12,
-                    20 => 25,
-                    25 => 75,
-                    30 => 85,
-                    35 => 100,
-                    40 => 100,
-                    45 => 100,
+                    0 => 6,
+                    1 => 9,
+                    2 => 12,
+                    3 => 25,
+                    4 => 75,
+                    5 => 85,
+                    6 => 100,
+                    7 => 100,
+                    8 => 100,
                     _ => form.LoadWeightPoints
                 },
                 _ => form.LoadWeightPoints
             };
-            totalPoints += form.LoadWeightPoints!.Value;
-            totalPoints += form.LoadHandlingConditions;
-            
-            totalPoints += form.BodyPostures.Sum();
-            form.BodyPosturePoints = form.BodyPostures.Sum();
-            
-            totalPoints += form.Additional!.Sum();
-            form.AdditionalPoints = form.Additional!.Sum();
-            
+
+            form.FrequencyPoints = form.Frequency switch
+            {
+                20 => 1.5,
+                50 => 2.0,
+                100 => 2.5,
+                150 => 3,
+                220 => 3.5,
+                300 => 4,
+                500 => 5,
+                750 => 6,
+                1000 => 7,
+                1500 => 8,
+                2000 => 9,
+                2500 => 10,
+                _ => form.FrequencyPoints
+            };
+
             if (form.WorkingConditions.PositionMovementOccasional)
             {
-                totalPoints += 1;
+                form.TotalPoints += 1;
             }
             if (form.WorkingConditions.PositionMovementFrequent)
             {
-                totalPoints += 2;
+                form.TotalPoints += 2;
             }
             if (form.WorkingConditions.ForceRestricted)
             {
-                totalPoints += 1;
-            }
+                form.TotalPoints += 1;
+            } 
             if (form.WorkingConditions.ForceHindered)
             {
-                totalPoints += 2;
-            }
+                form.TotalPoints += 2;
+            }   
             if (form.WorkingConditions.AdverseAmbientConditions)
             {
-                totalPoints += 1;
+                form.TotalPoints += 1;
             }
             if (form.WorkingConditions.SpatialConditionsRestricted)
             {
-                totalPoints += 1;
+                form.TotalPoints += 1;
             }
             if (form.WorkingConditions.SpatialConditionsUnfavourable)
             {
-                totalPoints += 2;
+                form.TotalPoints += 2;
             }
             if (form.WorkingConditions.Clothes)
             {
-                totalPoints += 1;
+                form.TotalPoints += 1;
             }
             if (form.WorkingConditions.DifficultiesHolding)
             {
-                totalPoints += 2;
+                form.TotalPoints += 2;
             }
             if (form.WorkingConditions.SignificantDifficultiesHolding)
             {
-                totalPoints += 5;
+                form.TotalPoints += 5;
             }
 
-            totalPoints += form.TemporalDistributionPoints;
-            throw new NotImplementedException();
+            form.TotalPoints += form.BodyPostures.Sum();
+            form.TotalPoints += form.Additional.Sum();
+            form.TotalPoints += form.LoadWeightPoints;
+            form.TotalPoints += form.AdditionalPoints;
+            form.TotalPoints += form.TemporalDistributionPoints;
+            
+            form.TotalPoints *= form.FrequencyPoints;
+
+            return form;
         }
     }
 }

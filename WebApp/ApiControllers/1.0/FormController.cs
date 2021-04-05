@@ -34,7 +34,7 @@ namespace WebApp.ApiControllers._1._0
             _bll = bll;
         }
         /// <summary>
-        /// get all the Forms
+        /// Get all Forms
         /// </summary>
         /// <returns>Array of Forms</returns>
         [HttpGet]
@@ -47,7 +47,7 @@ namespace WebApp.ApiControllers._1._0
         }
 
         /// <summary>
-        /// Get a single Form
+        /// Get a Form
         /// </summary>
         /// <param name="id">Form Id</param>
         /// <returns>Form object</returns>
@@ -68,7 +68,7 @@ namespace WebApp.ApiControllers._1._0
         }
         
         /// <summary>
-        /// Update the Forms
+        /// Update a Form
         /// </summary>
         /// <param name="id">Session Id</param>
         /// <param name="form">Form object</param>
@@ -99,7 +99,7 @@ namespace WebApp.ApiControllers._1._0
         }
         
         /// <summary>
-        /// Post /forms
+        /// Post a Form
         /// </summary>
         /// <param name="form"></param>
         /// <returns></returns>
@@ -114,7 +114,10 @@ namespace WebApp.ApiControllers._1._0
             form.DateAndTime = DateTime.Now;
             var bllEntity = _mapper.Map(form);
 
-            _bll.Forms.Add(bllEntity);
+            // Calculates end result
+            var calculatedForm = _bll.Forms.CalculateFormResult(bllEntity);
+            
+            _bll.Forms.Add(calculatedForm);
             await _bll.SaveChangesAsync();
             form.Id = bllEntity.Id;
 
@@ -124,7 +127,7 @@ namespace WebApp.ApiControllers._1._0
         }
         
         /// <summary>
-        /// Delete the Form
+        /// Delete a Form
         /// </summary>
         /// <param name="id">form Id to delete.</param>
         /// <returns>form just deleted</returns>

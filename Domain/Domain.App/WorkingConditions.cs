@@ -24,8 +24,5 @@ namespace Domain.App
         public bool DifficultiesHolding { get; set; }
         
         public bool SignificantDifficultiesHolding { get; set; }
-        
-        public int? TotalPoints { get; set; }
-        
     }
 }

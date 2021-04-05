@@ -26,7 +26,5 @@ namespace PublicApi.DTO.v1
         public bool DifficultiesHolding { get; set; }
         
         public bool SignificantDifficultiesHolding { get; set; }
-        
-        public int? TotalPoints { get; set; }
     }
 }

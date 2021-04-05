@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {}
           }
         },
@@ -39,11 +39,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.Contracts.Domain": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -57,11 +57,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -82,14 +82,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {
               "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.BLL.App\\Contracts.BLL.App.csproj": {
                 "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\Contracts.BLL.App\\Contracts.BLL.App.csproj"
@@ -107,19 +107,19 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.BLL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "ee.itcollege.carwash.kristjan.Contracts.BLL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "ee.itcollege.carwash.kristjan.DAL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -133,11 +133,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -158,14 +158,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {
               "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj": {
                 "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj"
@@ -186,11 +186,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.Contracts.BLL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -204,11 +204,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -229,14 +229,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {
               "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\DAL.App.DTO\\DAL.App.DTO.csproj": {
                 "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\DAL.App.DTO\\DAL.App.DTO.csproj"
@@ -251,15 +251,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.Contracts.DAL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "ee.itcollege.carwash.kristjan.Contracts.Domain": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -273,11 +273,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -298,14 +298,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {}
           }
         },
@@ -316,11 +316,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "ee.itcollege.carwash.kristjan.Contracts.Domain": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -334,11 +334,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -359,14 +359,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {}
           }
         },
@@ -377,7 +377,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -407,7 +407,7 @@
             },
             "ee.itcollege.carwash.kristjan.Domain.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -421,11 +421,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -446,14 +446,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
             "projectReferences": {
               "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj": {
                 "projectPath": "C:\\Users\\kristjan\\Desktop\\Subjects\\Lõputöö\\WebApp\\BLL.App.DTO\\BLL.App.DTO.csproj"
@@ -471,7 +471,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -483,15 +483,15 @@
             },
             "ee.itcollege.carwash.kristjan.Contracts.DAL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "ee.itcollege.carwash.kristjan.Contracts.Domain": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "ee.itcollege.carwash.kristjan.DAL.Base": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             }
           },
           "imports": [
@@ -505,11 +505,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

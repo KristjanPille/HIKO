@@ -24,34 +24,218 @@
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/BLL.App.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/BLL.App.DTO.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/WorkingConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/WorkingConditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/bin/Debug/netstandard2.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/bin/Debug/netstandard2.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/Debug/netstandard2.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/BLL.App.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/Services/FormService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/FormService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/BLL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/Debug/netstandard2.1/BLL.App.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Contracts.BLL.App.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.BLL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Debug/netstandard2.1/Contracts.BLL.App.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/Contracts.DAL.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/DAL.App.DTO.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/WorkingConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/WorkingConditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/bin/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/bin/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210221075654_InitialDbCreation.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210221075654_InitialDbCreation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/DAL.App.EF.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/netstandard2.1/Domain.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/netstandard2.1/DAL.App.EF.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/Domain.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/Domain.App.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/WorkingConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/WorkingConditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/bin/Debug/netstandard2.1/Domain.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/bin/Debug/netstandard2.1/Domain.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/bin/Debug/netstandard2.1/Domain.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/bin/Debug/netstandard2.1/Domain.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Debug/netstandard2.1/Domain.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/Extensions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/Extensions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/bin/Debug/netstandard2.1/Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/bin/Debug/netstandard2.1/Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/bin/Debug/netstandard2.1/Extensions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/bin/Debug/netstandard2.1/Extensions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Debug/netstandard2.1/Extensions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/PublicApi.DTO.v1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/PublicApi.DTO.v1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/Domain.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/Domain.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/Domain.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/Domain.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/PublicApi.DTO.v1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/PublicApi.DTO.v1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/PublicApi.DTO.v1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/bin/Debug/netstandard2.1/PublicApi.DTO.v1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/Debug/netstandard2.1/PublicApi.DTO.v1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/BLL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.BLL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.BLL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.BLL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.BLL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.DAL.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.DAL.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.DAL.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Contracts.DAL.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.DTO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.DTO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.DTO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.DTO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.EF.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.EF.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.EF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/DAL.App.EF.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Domain.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Domain.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Domain.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Domain.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Extensions.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Extensions.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/PublicApi.DTO.v1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/PublicApi.DTO.v1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/PublicApi.DTO.v1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/PublicApi.DTO.v1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp3.1/WebApp.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.TagHelpers.output.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,39 +247,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/icd0009-2019s/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3081B474-BD0C-4608-A91B-AF9671ADE37E/1D/Join.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DCCDB48F-55F9-4E7D-A8D4-DD58FB9DC075/c0/627044e8/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/WebApp/Program.cs" />
-        <option value="$PROJECT_DIR$/WebApp/ConfigureSwaggerOptions.cs" />
-        <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Identity/AppUser.cs" />
-        <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
-        <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
-        <option value="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/AccessDenied.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/Account/ExternalLogin.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/WebApp/wwwroot/js/dark-mode-switch.js" />
-        <option value="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/Views/Shared/_LoginPartial.cshtml" />
-        <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
-        <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.DTO/Form.cs" />
-        <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
-        <option value="$PROJECT_DIR$/DAL.App.DTO/WorkingConditions.cs" />
-        <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" />
-        <option value="$PROJECT_DIR$/Domain/Domain.App/WorkingConditions.cs" />
-        <option value="$PROJECT_DIR$/BLL.App.DTO/WorkingConditions.cs" />
-        <option value="$PROJECT_DIR$/Domain/Domain.App/Form.cs" />
-        <option value="$PROJECT_DIR$/BLL.App.DTO/Form.cs" />
-        <option value="$PROJECT_DIR$/BLL.App/Services/FormService.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Extensions/Extensions.csproj" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/PublicApi.DTO.v1.csproj" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/BodyPostures.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/Additional.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/BodyPostures.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/Additional.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/Additional.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/BodyPostures.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Additional.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/BodyPostures.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/Form.cs" />
+      <option value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/Form.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/Form.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/WorkingConditions.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/WorkingConditions.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/WorkingConditions.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Services/FormService.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -110,8 +292,10 @@
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp">
@@ -157,7 +341,18 @@
       <workItem from="1613850090266" duration="1383000" />
       <workItem from="1613890403339" duration="10537000" />
       <workItem from="1614082544704" duration="2275000" />
-      <workItem from="1614178223670" duration="7818000" />
+      <workItem from="1614178223670" duration="9089000" />
+      <workItem from="1614539644066" duration="11000" />
+      <workItem from="1614540792271" duration="42000" />
+      <workItem from="1615576212101" duration="703000" />
+      <workItem from="1615577005202" duration="898000" />
+      <workItem from="1615578413646" duration="2249000" />
+      <workItem from="1615580753857" duration="5933000" />
+      <workItem from="1615995333666" duration="51000" />
+      <workItem from="1616152597755" duration="9907000" />
+      <workItem from="1616435480083" duration="204000" />
+      <workItem from="1616757882439" duration="3573000" />
+      <workItem from="1617284368438" duration="7338000" />
     </task>
     <servers />
   </component>
@@ -176,102 +371,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613973047917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613973047917" />
-    <state width="399" height="464" key="DebuggerActiveHint" timestamp="1613898656290">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="399" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1613898656290" />
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1614082404098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404098" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1614082404097">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404097" />
-    <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1614082404099">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404099" />
-    <state width="1877" height="346" key="GridCell.Tab.2.center" timestamp="1614082404098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404098" />
-    <state width="1877" height="346" key="GridCell.Tab.2.left" timestamp="1614082404098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404098" />
-    <state width="1877" height="346" key="GridCell.Tab.2.right" timestamp="1614082404099">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404099" />
-    <state width="1877" height="346" key="GridCell.Tab.3.bottom" timestamp="1614082404100">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404100" />
-    <state width="1877" height="346" key="GridCell.Tab.3.center" timestamp="1614082404100">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404100" />
-    <state width="1877" height="346" key="GridCell.Tab.3.left" timestamp="1614082404100">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404100" />
-    <state width="1877" height="346" key="GridCell.Tab.3.right" timestamp="1614082404100">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404100" />
-    <state width="1877" height="346" key="GridCell.Tab.4.bottom" timestamp="1614082404101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404101" />
-    <state width="1877" height="346" key="GridCell.Tab.4.center" timestamp="1614082404101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404101" />
-    <state width="1877" height="346" key="GridCell.Tab.4.left" timestamp="1614082404101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404101" />
-    <state width="1877" height="346" key="GridCell.Tab.4.right" timestamp="1614082404101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614082404101" />
-    <state x="638" y="224" width="644" height="640" key="find.popup" timestamp="1614189736723">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="638" y="224" width="644" height="640" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614189736723" />
   </component>
 </project>
