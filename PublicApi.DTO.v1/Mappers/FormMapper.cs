@@ -43,7 +43,7 @@ namespace PublicApi.DTO.v1.Mappers
                     .ForMember(dest => dest.SpatialConditionsUnfavourable, act => act.MapFrom(src => src.SpatialConditionsUnfavourable));
 
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.Form, Form>()
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser ?? new()))
+                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
                 .ForMember(dest => dest.BodyPostures, act => act.MapFrom(src => src.BodyPostures))
                 .ForMember(dest => dest.Additional, act => act.MapFrom(src => src.Additional))
                 .ForMember(dest => dest.WorkingConditions, act => act.MapFrom(src => src.WorkingConditions));

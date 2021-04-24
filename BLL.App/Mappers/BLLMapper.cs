@@ -11,7 +11,7 @@ namespace BLL.App.Mappers
         public BLLMapper() : base()
         {
             MapperConfigurationExpression.CreateMap<BodyPostures, DTO.BodyPostures>().ReverseMap()
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
+                .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Posture1, act => act.MapFrom(src => src.Posture1))
                     .ForMember(dest => dest.Posture2, act => act.MapFrom(src => src.Posture2))
                     .ForMember(dest => dest.Posture3, act => act.MapFrom(src => src.Posture3))
@@ -24,7 +24,7 @@ namespace BLL.App.Mappers
                     .ForMember(dest => dest.Posture10, act => act.MapFrom(src => src.Posture10));
 
             MapperConfigurationExpression.CreateMap<Additional, DTO.Additional>().ReverseMap()
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
+                .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Additional1, act => act.MapFrom(src => src.Additional1))
                     .ForMember(dest => dest.Additional2, act => act.MapFrom(src => src.Additional2))
                     .ForMember(dest => dest.Additional3, act => act.MapFrom(src => src.Additional3))
@@ -35,7 +35,7 @@ namespace BLL.App.Mappers
                     .ForMember(dest => dest.Additional8, act => act.MapFrom(src => src.Additional8));
 
             MapperConfigurationExpression.CreateMap<WorkingConditions, DTO.WorkingConditions>().ReverseMap()
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
+                .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Clothes, act => act.MapFrom(src => src.Clothes))
                     .ForMember(dest => dest.DifficultiesHolding, act => act.MapFrom(src => src.DifficultiesHolding))
                     .ForMember(dest => dest.ForceHindered, act => act.MapFrom(src => src.ForceHindered))
