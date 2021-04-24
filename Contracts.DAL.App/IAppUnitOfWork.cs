@@ -6,5 +6,8 @@ namespace Contracts.DAL.App
     public interface IAppUnitOfWork : IBaseUnitOfWork, IBaseEntityTracker
     {
         IFormRepository Forms { get; }
+        IAdditionalRepository Additionals { get; }
+        IBodyPosturesRepository BodyPostures { get; }
+        IWorkingConditionsRepository WorkingConditions { get; }
     }
 }

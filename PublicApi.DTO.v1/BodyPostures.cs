@@ -7,6 +7,8 @@ namespace PublicApi.DTO.v1
     {
         public Guid Id { get; set; }
         
+        public Guid AppUserId { get; set; }
+        
         public int Posture1 { get; set; }
         
         public int Posture2 { get; set; }

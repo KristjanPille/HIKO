@@ -12,24 +12,24 @@ namespace BLL.App.DTO
         
         public AppUser? AppUser { get; set; }
         
-        public bool PositionMovementOccasional { get; set; }
+        public int PositionMovementOccasional { get; set; }
         
-        public bool PositionMovementFrequent { get; set; }
+        public int PositionMovementFrequent { get; set; }
         
-        public bool ForceRestricted { get; set; }
+        public int ForceRestricted { get; set; }
         
-        public bool ForceHindered { get; set; }
+        public int ForceHindered { get; set; }
         
-        public bool AdverseAmbientConditions { get; set; }
+        public int AdverseAmbientConditions { get; set; }
         
-        public bool SpatialConditionsRestricted { get; set; }
+        public int SpatialConditionsRestricted { get; set; }
         
-        public bool SpatialConditionsUnfavourable { get; set; }
+        public int SpatialConditionsUnfavourable { get; set; }
         
-        public bool Clothes { get; set; }
+        public int Clothes { get; set; }
         
-        public bool DifficultiesHolding { get; set; }
+        public int DifficultiesHolding { get; set; }
         
-        public bool SignificantDifficultiesHolding { get; set; }
+        public int SignificantDifficultiesHolding { get; set; }
     }
 }

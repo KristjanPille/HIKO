@@ -29,7 +29,8 @@ using Microsoft.EntityFrameworkCore;
             var roles = new (string roleName, string roleDisplayName)[]
             {
                 ("user", "User"),
-                ("admin", "Admin")
+                ("admin", "Admin"),
+                ("superAdmin", "superAdmin")
             };
 
             foreach (var (roleName, roleDisplayName) in roles)

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using ee.itcollege.carwash.kristjan.Contracts.Domain;
 using DAL.App.DTO.Identity;
 
@@ -15,35 +14,44 @@ namespace DAL.App.DTO
 
         public DateTime DateAndTime { get; set; } = default!;
         
+        public string? FirstName { get; set; }
+        
+        public string? LastName { get; set; }
+        
         public string? Workplace { get; set; }
         
-        public int WorkingDayDuration { get; set; }
+        public string? SubActivity { get; set; }
         
-        public int SubActivityDuration { get; set; }
+        public double WorkingDayDuration { get; set; }
+        
+        public double SubActivityDuration { get; set; }
         
         public string? Evaluator { get; set; }
 
         public string Sex { get; set; } = default!;
         
-        public int Frequency { get; set; } = default!;
-        public double? FrequencyPoints { get; set; }
+        public double Frequency { get; set; }
+        public double FrequencyPoints { get; set; } = 1;
         
-        public int LoadWeight { get; set; } = default!;
-        public int? LoadWeightPoints { get; set; }
+        public double LoadWeight { get; set; }
+        public double LoadWeightPoints { get; set; } = 0;
         
-        public int LoadHandlingConditions { get; set; } = default!;
+        public double LoadHandlingConditions { get; set; }
 
-        public IEnumerable<int> BodyPostures { get; set; } = default!;
-        public int? BodyPosturePoints { get; set; } = default!;
+        public BodyPostures? BodyPostures { get; set; }
+        public Guid? BodyPosturesId { get; set; }
+        public double BodyPosturePoints { get; set; } = 0;
 
-        public IEnumerable<int> Additional { get; set; } = default!;
-        public int? AdditionalPoints { get; set; }
+        public Additional? Additional { get; set; }
+        public Guid? AdditionalId { get; set; }
+        public double AdditionalPoints { get; set; } = 0;
 
-        public WorkingConditions WorkingConditions { get; set; } = default!;
-
-        public string TemporalDistribution { get; set; } = default!;
-        public int? TemporalDistributionPoints { get; set; }
+        public WorkingConditions? WorkingConditions { get; set; }
+        public Guid? WorkingConditionsId { get; set; }
+        public double WorkingConditionsPoints { get; set; } = 0;
         
-        public double? TotalPoints { get; set; }
+        public double TemporalDistributionPoints { get; set; } = 0;
+        
+        public double TotalPoints { get; set; } = 0;
     }
 }

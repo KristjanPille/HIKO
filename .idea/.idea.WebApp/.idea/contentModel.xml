@@ -16,8 +16,11 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL.App.csproj" t="IncludeRecursive" />
         <e p="Mappers" t="Include">
+          <e p="AdditionalServiceMapper.cs" t="Include" />
           <e p="BLLMapper.cs" t="Include" />
+          <e p="BodyPosturesServiceMapper.cs" t="Include" />
           <e p="FormServiceMapper.cs" t="Include" />
+          <e p="WorkingConditionsServiceMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -27,7 +30,10 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="AdditionalService.cs" t="Include" />
+          <e p="BodyPosturesService.cs" t="Include" />
           <e p="FormService.cs" t="Include" />
+          <e p="WorkingConditionsService.cs" t="Include" />
         </e>
       </e>
       <e p="BLL.App.DTO" t="IncludeRecursive">
@@ -54,7 +60,10 @@
         <e p="Contracts.BLL.App.csproj" t="IncludeRecursive" />
         <e p="IAppBLL.cs" t="Include" />
         <e p="Mappers" t="Include">
+          <e p="IAdditionalServiceMapper.cs" t="Include" />
+          <e p="IBodyPosturesServiceMapper.cs" t="Include" />
           <e p="IFormServiceMapper.cs" t="Include" />
+          <e p="IWorkingConditionsMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -64,7 +73,10 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="IAdditionalService.cs" t="Include" />
+          <e p="IBodyPosturesService.cs" t="Include" />
           <e p="IFormService.cs" t="Include" />
+          <e p="IWorkingConditionsService.cs" t="Include" />
         </e>
       </e>
       <e p="Contracts.DAL.App" t="IncludeRecursive">
@@ -79,8 +91,14 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="IAdditionalRepository.cs" t="Include" />
+          <e p="IAdditionalRepositoryCustom.cs" t="Include" />
+          <e p="IBodyPosturesRepository.cs" t="Include" />
+          <e p="IBodyPosturesRepositoryCustom.cs" t="Include" />
           <e p="IFormRepository.cs" t="Include" />
           <e p="IFormRepositoryCustom.cs" t="Include" />
+          <e p="IWorkingConditionsRepository.cs" t="Include" />
+          <e p="IWorkingConditionsRepositoryCustom.cs" t="Include" />
         </e>
       </e>
       <e p="DAL" t="Include" />
@@ -114,6 +132,11 @@
         <e p="Mappers" t="Include">
           <e p="DALMapper.cs" t="Include" />
         </e>
+        <e p="Migrations" t="Include">
+          <e p="20210418142631_InitialDbCreation.cs" t="Include" />
+          <e p="20210418142631_InitialDbCreation.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -122,7 +145,10 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="AdditionalRepository.cs" t="Include" />
+          <e p="BodyPosturesRepository.cs" t="Include" />
           <e p="FormRepository.cs" t="Include" />
+          <e p="WorkingConditionsRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Domain" t="Include">
@@ -131,6 +157,7 @@
           <e p="bin" t="ExcludeRecursive" />
           <e p="BodyPostures.cs" t="Include" />
           <e p="Domain.App.csproj" t="IncludeRecursive" />
+          <e p="Enums" t="Include" />
           <e p="Form.cs" t="Include" />
           <e p="Identity" t="Include">
             <e p="AppRole.cs" t="Include" />
@@ -173,9 +200,12 @@
           <e p="RegisterDTO.cs" t="Include" />
         </e>
         <e p="Mappers" t="Include">
+          <e p="AdditionalMapper.cs" t="Include" />
           <e p="AppUserMapper.cs" t="Include" />
           <e p="BaseMapper.cs" t="Include" />
+          <e p="BodyPosturesMapper.cs" t="Include" />
           <e p="FormMapper.cs" t="Include" />
+          <e p="WorkingConditionsMapper.cs" t="Include" />
         </e>
         <e p="MessageDTO.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">

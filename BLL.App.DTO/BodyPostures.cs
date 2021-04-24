@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+using BLL.App.DTO.Identity;
 using ee.itcollege.carwash.kristjan.Contracts.Domain;
 
 namespace BLL.App.DTO
@@ -6,6 +8,11 @@ namespace BLL.App.DTO
     public class BodyPostures : IDomainEntityId
     {
         public Guid Id { get; set; }
+        
+        public Guid AppUserId { get; set; }
+        
+        [JsonIgnore]
+        public AppUser? AppUser { get; set; }
         
         public int Posture1 { get; set; }
         

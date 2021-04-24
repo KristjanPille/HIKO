@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+using DAL.App.DTO.Identity;
 using ee.itcollege.carwash.kristjan.Contracts.Domain;
 
 namespace DAL.App.DTO
@@ -6,6 +8,11 @@ namespace DAL.App.DTO
     public class BodyPostures : IDomainEntityId
     {
         public Guid Id { get; set; }
+        
+        public Guid AppUserId { get; set; }
+        
+        [JsonIgnore]
+        public AppUser? AppUser { get; set; }
         
         public int Posture1 { get; set; }
         

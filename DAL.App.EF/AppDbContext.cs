@@ -12,6 +12,9 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using AppRole = Domain.App.Identity.AppRole;
 using AppUser = Domain.App.Identity.AppUser;
+using BodyPostures = Domain.App.BodyPostures;
+using Additional = Domain.App.Additional;
+using WorkingConditions = Domain.App.WorkingConditions;
 using Form = Domain.App.Form;
 
 namespace DAL.App.EF
@@ -22,6 +25,8 @@ namespace DAL.App.EF
 
         public DbSet<Form> Forms { get; set; } = default!;
         public DbSet<WorkingConditions> WorkingConditions { get; set; } = default!;
+        public DbSet<BodyPostures> BodyPostures { get; set; } = default!;
+        public DbSet<Additional> Additionals { get; set; } = default!;
 
         private readonly Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>> _entityTracker =
             new Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>>();
@@ -47,17 +52,8 @@ namespace DAL.App.EF
                 c => c.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
                 c => c.ToList());
             
-            builder
-                .Entity<Form>().
-                Property(e => e.BodyPostures).
-                HasConversion(IntValueConverter).Metadata
-                .SetValueComparer(valueComparer);
-            builder
-                .Entity<Form>().
-                Property(e => e.Additional).
-                HasConversion(IntValueConverter).Metadata
-                .SetValueComparer(valueComparer);
-
+     
+            
             // disable cascade delete
             foreach (var relationship in builder.Model
                 .GetEntityTypes().SelectMany(e => e.GetForeignKeys()))

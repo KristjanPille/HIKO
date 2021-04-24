@@ -14,5 +14,14 @@ namespace DAL.App.EF
 
         public IFormRepository Forms =>
             GetRepository<IFormRepository>(() => new FormRepository(UOWDbContext));
+        
+        public IWorkingConditionsRepository WorkingConditions =>
+            GetRepository<IWorkingConditionsRepository>(() => new WorkingConditionsRepository(UOWDbContext));
+        
+        public IAdditionalRepository Additionals =>
+            GetRepository<IAdditionalRepository>(() => new AdditionalRepository(UOWDbContext));
+        
+        public IBodyPosturesRepository BodyPostures =>
+            GetRepository<IBodyPosturesRepository>(() => new BodyPosturesRepository(UOWDbContext));
     }
 }

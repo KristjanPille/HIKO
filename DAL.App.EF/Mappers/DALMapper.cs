@@ -12,6 +12,16 @@ namespace DAL.App.EF.Mappers
             // add more mappings
             MapperConfigurationExpression.CreateMap<Domain.App.Identity.AppUser, DAL.App.DTO.Identity.AppUser>();
             MapperConfigurationExpression.CreateMap<Domain.App.Form, DAL.App.DTO.Form>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.Form, Domain.App.Form>();
+            
+            MapperConfigurationExpression.CreateMap<Domain.App.Additional, DAL.App.DTO.Additional>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.Additional, Domain.App.Additional>();
+            
+            MapperConfigurationExpression.CreateMap<Domain.App.WorkingConditions, DAL.App.DTO.WorkingConditions>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.WorkingConditions, Domain.App.WorkingConditions>();
+            
+            MapperConfigurationExpression.CreateMap<Domain.App.BodyPostures, DAL.App.DTO.BodyPostures>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.BodyPostures, Domain.App.BodyPostures>();
 
             Mapper = new Mapper(new MapperConfiguration(MapperConfigurationExpression));
         }

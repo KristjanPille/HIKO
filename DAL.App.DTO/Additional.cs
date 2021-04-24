@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+using DAL.App.DTO.Identity;
 using ee.itcollege.carwash.kristjan.Contracts.Domain;
 
 namespace DAL.App.DTO
@@ -7,20 +9,25 @@ namespace DAL.App.DTO
     {
         public Guid Id { get; set; }
 
-        public int Additional1 { get; set; }
+        public Guid AppUserId { get; set; }
         
-        public int Additional2 { get; set; }
+        [JsonIgnore]
+        public AppUser? AppUser { get; set; }
+
+        public double Additional1 { get; set; }
         
-        public int Additional3 { get; set; }
+        public double Additional2 { get; set; }
         
-        public int Additional4 { get; set; }
+        public double Additional3 { get; set; }
         
-        public int Additional5 { get; set; }
+        public double Additional4 { get; set; }
         
-        public int Additional6 { get; set; }
+        public double Additional5 { get; set; }
         
-        public int Additional7 { get; set; }
+        public double Additional6 { get; set; }
         
-        public int Additional8 { get; set; }
+        public double Additional7 { get; set; }
+        
+        public double Additional8 { get; set; }
     }
 }

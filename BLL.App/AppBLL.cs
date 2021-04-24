@@ -15,5 +15,13 @@ namespace BLL.App
         public IFormService Forms =>
             GetService<IFormService>(() => new Services.FormService(UOW));
         
+        public IWorkingConditionsService WorkingConditions =>
+            GetService<IWorkingConditionsService>(() => new Services.WorkingConditionsService(UOW));
+        
+        public IAdditionalService Additionals =>
+            GetService<IAdditionalService>(() => new Services.AdditionalService(UOW));
+
+        public IBodyPosturesService BodyPosture =>
+            GetService<IBodyPosturesService>(() => new Services.BodyPosturesService(UOW));
     }
 }
