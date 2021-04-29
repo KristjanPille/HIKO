@@ -64,6 +64,7 @@ namespace DAL.App.EF.Repositories
         
         public async Task<IEnumerable<Form>> GetFormsByName(string filter)
         {
+            List<Domain.App.Form> forms = new List<Domain.App.Form>();
             var query = PrepareQuery();
 
             // only removes trailing leading whitespaces
@@ -90,10 +91,22 @@ namespace DAL.App.EF.Repositories
                     );   
                 }
             }
-            var domainEntities = await query.ToListAsync();
-
-            var result = domainEntities.Select(e => Mapper.Map(e));
             
+            foreach (var form in query)
+            {
+                form.BodyPostures = RepoDbContext.BodyPostures.AsNoTracking()
+                    .Where(l => l.Id == form.BodyPosturesId).FirstOrDefaultAsync().Result;
+            
+                form.WorkingConditions = RepoDbContext.WorkingConditions.AsNoTracking()
+                    .Where(l => l.Id == form.WorkingConditionsId).FirstOrDefaultAsync().Result;
+            
+                form.Additional = RepoDbContext.Additionals.AsNoTracking()
+                    .Where(l => l.Id == form.AdditionalId).FirstOrDefaultAsync().Result;
+
+                forms.Add(form);
+            }
+            
+            var result = forms.Select(e => Mapper.Map(e));
             return result;
         }
 

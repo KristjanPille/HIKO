@@ -12,11 +12,13 @@ namespace DAL.App.DTO
         
         public AppUser? AppUser { get; set; }
 
-        public DateTime DateAndTime { get; set; } = default!;
+        public DateTime FormCreatedDate { get; set; } = default!;
         
         public string? FirstName { get; set; }
         
         public string? LastName { get; set; }
+        
+        public DateTime BirthDate { get; set; }
         
         public string? Workplace { get; set; }
         

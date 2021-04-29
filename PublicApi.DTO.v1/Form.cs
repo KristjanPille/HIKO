@@ -14,11 +14,13 @@ namespace PublicApi.DTO.v1
         [JsonIgnore]
         public AppUser? AppUser { get; set; }
 
-        public DateTime DateAndTime { get; set; }
+        public DateTime FormCreatedDate { get; set; }
         
         public string? FirstName { get; set; }
         
         public string? LastName { get; set; }
+        
+        public DateTime BirthDate { get; set; }
         
         public string? Workplace { get; set; }
         

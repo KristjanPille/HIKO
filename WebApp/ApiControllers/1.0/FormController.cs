@@ -127,7 +127,7 @@ namespace WebApp.ApiControllers._1._0
             form.BodyPostures.AppUserId = User.UserId();
             form.Additional.AppUserId = User.UserId();
             form.WorkingConditions.AppUserId = User.UserId();
-            form.DateAndTime = DateTime.Now;
+            form.FormCreatedDate = DateTime.Now;
             
             await _bll.Forms.UpdateAsync(_mapper.Map(form));
             await _bll.SaveChangesAsync();
@@ -147,7 +147,7 @@ namespace WebApp.ApiControllers._1._0
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(V1DTO.MessageDTO))]
         public async Task<ActionResult<Form>> PostForm(V1DTO.Form form)
         {
-            form.DateAndTime = DateTime.Now;
+            form.FormCreatedDate = DateTime.Now;
 
             var bllEntity = _mapper.Map(form);
 
@@ -180,7 +180,7 @@ namespace WebApp.ApiControllers._1._0
             form.Additional.AppUserId = User.UserId();
             form.WorkingConditions.AppUserId = User.UserId();
 
-            form.DateAndTime = DateTime.Now;
+            form.FormCreatedDate = DateTime.Now;
 
             var bllEntity = _mapper.Map(form);
 

@@ -26,7 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210418142631_InitialDbCreation.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210418142631_InitialDbCreation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,21 +144,21 @@
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Additional.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/BodyPostures.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" />
-      <option value="$PROJECT_DIR$/BLL.App.DTO/Form.cs" />
-      <option value="$PROJECT_DIR$/Domain/Domain.App/Form.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.DTO/Form.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/FormMapper.cs" />
       <option value="$PROJECT_DIR$/WebApp/Program.cs" />
       <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
       <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/DataInitializers.cs" />
       <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IFormRepository.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Services/FormService.cs" />
       <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/FormMapper.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/Form.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/Form.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/Form.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -241,7 +251,7 @@
       <workItem from="1618648665615" duration="5834000" />
       <workItem from="1618663340671" duration="348000" />
       <workItem from="1618663726756" duration="43392000" />
-      <workItem from="1619244424742" duration="17824000" />
+      <workItem from="1619244424742" duration="26026000" />
     </task>
     <servers />
   </component>
