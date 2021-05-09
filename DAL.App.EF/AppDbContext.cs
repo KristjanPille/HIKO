@@ -27,6 +27,10 @@ namespace DAL.App.EF
         public DbSet<WorkingConditions> WorkingConditions { get; set; } = default!;
         public DbSet<BodyPostures> BodyPostures { get; set; } = default!;
         public DbSet<Additional> Additionals { get; set; } = default!;
+        
+        public DbSet<Company> Companies { get; set; } = default!;
+        
+        public DbSet<WorkCategory> Work { get; set; } = default!;
 
         private readonly Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>> _entityTracker =
             new Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>>();

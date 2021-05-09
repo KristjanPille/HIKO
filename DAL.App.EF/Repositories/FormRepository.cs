@@ -59,7 +59,6 @@ namespace DAL.App.EF.Repositories
             }
             var result = forms.Select(e => Mapper.Map(e));
             return result;
-
         }
         
         public async Task<IEnumerable<Form>> GetFormsByName(string filter)

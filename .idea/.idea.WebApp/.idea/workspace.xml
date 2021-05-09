@@ -26,17 +26,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/Form.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/Form.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210418142631_InitialDbCreation.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210418142631_InitialDbCreation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IBodyPosturesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IBodyPosturesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/Form.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,110 +69,82 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A88185-3C91-4E69-A515-7BD8B6939D57/21/81f657df/BaseEntityService`6.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/BLL.Base/BaseBLL.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3081B474-BD0C-4608-A91B-AF9671ADE37E/1D/Join.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/BLL.Base/Services/BaseEntityService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F984B6-B728-4F1F-AEB1-D92B22E270FD/94/d1baf45c/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DCCDB48F-55F9-4E7D-A8D4-DD58FB9DC075/c0/627044e8/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54494287-9CC1-4DEE-B61C-0F4FB47AF640/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E538456B-4744-4BFC-BF6C-CEEABB336680/9a/ffbaf4c5/EFBaseRepository`5.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/577CC3BF-27B8-4D0A-BB77-D76FDCF24BDA/8b/f6f64229/DomainEntityIdMetadataUser`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F0D1540B-15CA-4134-8C3F-BBB7BE64E9EA/1/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F984B6-B728-4F1F-AEB1-D92B22E270FD/94/d1baf45c/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DDCC9617-0143-4EF5-B4A7-34FC068E8819/13/RoleManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/F/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/94/Int32.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/icd0009-2019s/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DCCDB48F-55F9-4E7D-A8D4-DD58FB9DC075/c0/627044e8/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DDCC9617-0143-4EF5-B4A7-34FC068E8819/13/RoleManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/BLL.Base/BaseBLL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/687CD3EF-1206-406C-8B82-2CB02EE0595E/7/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/215F0B9B-5D85-4519-AC78-C9879BE4374E/19/2d06d3b5/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/412/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5CF38DA8-757B-492C-9CCC-50A3F236204C/F/JwtBearerDefaults.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/BLL.App/Mappers/BLLMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54494287-9CC1-4DEE-B61C-0F4FB47AF640/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/94/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E538456B-4744-4BFC-BF6C-CEEABB336680/9a/ffbaf4c5/EFBaseRepository`5.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IWorkingConditionsService.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IAdditionalService.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IBodyPosturesService.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IAdditionalServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IWorkingConditionMapper.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkingConditionsRepository.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkingConditionsRepositoryCustom.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdditionalRepository.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAdditionalRepositoryCustom.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IBodyPosturesRepository.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IBodyPosturesRepositoryCustom.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AdditionalRepository.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/BodyPosturesRepository.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/WorkingConditionsRepository.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IWorkingConditionsMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Services/WorkingConditionsService.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/WorkingConditionsServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/AdditionalServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/BodyPosturesServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Services/AdditionalService.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Services/BodyPosturesService.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/FormServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/Domain/Domain.App/Additional.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.DTO/Additional.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.DTO/BodyPostures.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.DTO/WorkingConditions.cs" />
-      <option value="$PROJECT_DIR$/BLL.App.DTO/Additional.cs" />
-      <option value="$PROJECT_DIR$/BLL.App.DTO/BodyPostures.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Additional.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/BodyPostures.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" />
       <option value="$PROJECT_DIR$/WebApp/Program.cs" />
       <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
-      <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/DataInitializers.cs" />
       <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IFormRepository.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Services/FormService.cs" />
-      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/FormMapper.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
       <option value="$PROJECT_DIR$/Domain/Domain.App/Form.cs" />
       <option value="$PROJECT_DIR$/DAL.App.DTO/Form.cs" />
       <option value="$PROJECT_DIR$/BLL.App.DTO/Form.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ICompanyRepository.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ICompanyRepositoryCustom.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkCategoryRepository.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkCategoryRepositoryCustom.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/WorkCategoryRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/ICompanyServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IWorkCategoryServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/WorkCategoryServiceMappercs.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Services/CompanyService.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Services/WorkCategoryService.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IWorkCategoryService.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/ICompanyService.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IBodyPosturesService.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/WorkCategoryMappercs.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/WorkCategoryController.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/Company.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/Company.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Company.cs" />
+      <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/Company.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkCategory.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/WorkCategory.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/WorkCategory.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/WorkCategory.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -251,7 +237,9 @@
       <workItem from="1618648665615" duration="5834000" />
       <workItem from="1618663340671" duration="348000" />
       <workItem from="1618663726756" duration="43392000" />
-      <workItem from="1619244424742" duration="26026000" />
+      <workItem from="1619244424742" duration="27287000" />
+      <workItem from="1619766191219" duration="6656000" />
+      <workItem from="1619855962885" duration="24983000" />
     </task>
     <servers />
   </component>

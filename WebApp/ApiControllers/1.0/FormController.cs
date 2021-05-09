@@ -1,20 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
-using AutoMapper;
 using Contracts.BLL.App;
 using Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PublicApi.DTO.v1.Mappers;
 using Form = PublicApi.DTO.v1.Form;
-using V1DTO=PublicApi.DTO.v1;
+using V1DTO = PublicApi.DTO.v1;
 
 namespace WebApp.ApiControllers._1._0
 {    /// <summary>
@@ -56,7 +52,7 @@ namespace WebApp.ApiControllers._1._0
         /// </summary>
         /// <param name="id">Form Id</param>
         /// <returns>Form object</returns>
-        [HttpGet("/getById{id}")]
+        [HttpGet("{id}")]
         [Produces("application/json")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -79,7 +75,7 @@ namespace WebApp.ApiControllers._1._0
         /// </summary>
         /// <param name="name">Form Id</param>
         /// <returns>Form object</returns>
-        [HttpGet("{name}")]
+        [HttpGet("name/{name}")]
         [Produces("application/json")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -103,7 +99,7 @@ namespace WebApp.ApiControllers._1._0
         /// <param name="id">Session Id</param>
         /// <param name="form">Form object</param>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        [HttpPut("{id:guid}")]
         [Produces("application/json")]
         [Consumes("application/json")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "admin")]
@@ -154,6 +150,8 @@ namespace WebApp.ApiControllers._1._0
             // Calculates end result
             var calculatedForm = _bll.Forms.CalculateFormResult(bllEntity);
             
+            _bll.Forms.Add(calculatedForm);
+            await _bll.SaveChangesAsync();
             form.Id = bllEntity.Id;
 
             return CreatedAtAction("GetForm",
@@ -212,8 +210,7 @@ namespace WebApp.ApiControllers._1._0
         {
             var userIdTKey = User.IsInRole("admin") ? null : (Guid?) User.UserId();
 
-            var form =
-                await _bll.Forms.FirstOrDefaultAsync(id, userIdTKey);
+            var form = await _bll.Forms.FirstOrDefaultAsync(id, userIdTKey);
             
             if (form == null)
             {

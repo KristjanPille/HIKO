@@ -22,6 +22,12 @@ namespace DAL.App.EF.Mappers
             
             MapperConfigurationExpression.CreateMap<Domain.App.BodyPostures, DAL.App.DTO.BodyPostures>();
             MapperConfigurationExpression.CreateMap<DAL.App.DTO.BodyPostures, Domain.App.BodyPostures>();
+            
+            MapperConfigurationExpression.CreateMap<Domain.App.Company, DAL.App.DTO.Company>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.Company, Domain.App.Company>();
+            
+            MapperConfigurationExpression.CreateMap<Domain.App.WorkCategory, DAL.App.DTO.WorkCategory>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.WorkCategory, Domain.App.WorkCategory>();
 
             Mapper = new Mapper(new MapperConfiguration(MapperConfigurationExpression));
         }

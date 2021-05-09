@@ -4,7 +4,7 @@ using Contracts.DAL.App.Repositories;
 
 namespace Contracts.BLL.App.Services
 {
-    public interface IBodyPosturesService : IBaseEntityService<BodyPostures>, IFormRepositoryCustom<BodyPostures>
+    public interface ICompanyService : IBaseEntityService<Company>, ICompanyRepositoryCustom<Company>
     {
     }
 }

@@ -54,6 +54,23 @@ namespace BLL.App.Mappers
                 .ForMember(dest => dest.WorkingConditions, act => act.MapFrom(src => src.WorkingConditions));
             
             
+            MapperConfigurationExpression.CreateMap<WorkCategory, DTO.WorkCategory>().ReverseMap()
+                .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
+                .ForMember(dest => dest.CompanyId, act => act.MapFrom(src => src.CompanyId))
+                .ForMember(dest => dest.Company, act => act.MapFrom(src => src.Company))
+                .ForMember(dest => dest.Name, act => act.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Forms, act => act.MapFrom(src => src.Forms))
+                .ForMember(dest => dest.AverageScore, act => act.MapFrom(src => src.AverageScore));
+            
+            MapperConfigurationExpression.CreateMap<Company, DTO.Company>().ReverseMap()
+                .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
+                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
+                .ForMember(dest => dest.Name, act => act.MapFrom(src => src.Name))
+                .ForMember(dest => dest.RegisterCode, act => act.MapFrom(src => src.RegisterCode))
+                .ForMember(dest => dest.WorkCategories, act => act.MapFrom(src => src.WorkCategories))
+                .ForMember(dest => dest.AppUserId, act => act.MapFrom(src => src.AppUserId));
+
+
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.BodyPostures, DAL.App.DTO.BodyPostures>();
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.BodyPostures, DAL.App.DTO.BodyPostures>();
 
@@ -62,7 +79,7 @@ namespace BLL.App.Mappers
             
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.WorkingConditions, DAL.App.DTO.WorkingConditions>();
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.WorkingConditions, DAL.App.DTO.WorkingConditions>();
-            
+
             MapperConfigurationExpression.CreateMap<DAL.App.DTO.Identity.AppUser, BLL.App.DTO.Identity.AppUser>();
 
 

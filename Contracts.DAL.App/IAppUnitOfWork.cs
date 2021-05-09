@@ -9,5 +9,7 @@ namespace Contracts.DAL.App
         IAdditionalRepository Additionals { get; }
         IBodyPosturesRepository BodyPostures { get; }
         IWorkingConditionsRepository WorkingConditions { get; }
+        ICompanyRepository Companies { get; }
+        IWorkCategoryRepository WorkCategories { get; }
     }
 }

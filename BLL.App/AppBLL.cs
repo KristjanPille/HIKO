@@ -2,6 +2,7 @@
 using Contracts.BLL.App;
 using Contracts.BLL.App.Services;
 using Contracts.DAL.App;
+using Contracts.DAL.App.Repositories;
 using ee.itcollege.carwash.kristjan.BLL.Base;
 
 namespace BLL.App
@@ -23,5 +24,11 @@ namespace BLL.App
 
         public IBodyPosturesService BodyPosture =>
             GetService<IBodyPosturesService>(() => new Services.BodyPosturesService(UOW));
+        
+        public ICompanyService Companies =>
+            GetService<ICompanyService>(() => new Services.CompanyService(UOW));
+        
+        public IWorkCategoryService WorkCategories =>
+            GetService<IWorkCategoryService>(() => new Services.WorkCategoryService(UOW));
     }
 }

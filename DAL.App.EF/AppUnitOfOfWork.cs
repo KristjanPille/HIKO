@@ -23,5 +23,11 @@ namespace DAL.App.EF
         
         public IBodyPosturesRepository BodyPostures =>
             GetRepository<IBodyPosturesRepository>(() => new BodyPosturesRepository(UOWDbContext));
+        
+        public ICompanyRepository Companies =>
+            GetRepository<ICompanyRepository>(() => new CompanyRepository(UOWDbContext));
+        
+        public IWorkCategoryRepository WorkCategories =>
+            GetRepository<IWorkCategoryRepository>(() => new WorkCategoryRepository(UOWDbContext));
     }
 }
