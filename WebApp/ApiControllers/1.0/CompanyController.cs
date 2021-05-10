@@ -121,17 +121,6 @@ namespace WebApp.ApiControllers._1._0
             
             await _bll.SaveChangesAsync();
 
-            foreach (var workCategory in company.WorkCategories!)
-            {
-                workCategory.CompanyId = bllEntity.Id;
-                var bllWorkCategoryEntity = _workCategoryMapper.Map(workCategory);
-
-                _bll.WorkCategories.Add(bllWorkCategoryEntity);
-                await _bll.SaveChangesAsync();
-                
-                workCategory.Id = bllWorkCategoryEntity.Id;
-            }
-            
             company.Id = bllEntity.Id;
 
             return CreatedAtAction("GetCompany",
