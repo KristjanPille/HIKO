@@ -30,7 +30,7 @@ namespace DAL.App.EF
         
         public DbSet<Company> Companies { get; set; } = default!;
         
-        public DbSet<WorkCategory> Work { get; set; } = default!;
+        public DbSet<WorkCategory> WorkCategories { get; set; } = default!;
 
         private readonly Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>> _entityTracker =
             new Dictionary<IDomainEntityId<Guid>, IDomainEntityId<Guid>>();
@@ -62,7 +62,7 @@ namespace DAL.App.EF
             foreach (var relationship in builder.Model
                 .GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {
-                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+                relationship.DeleteBehavior = DeleteBehavior.Cascade;
             }
             
         }

@@ -25,7 +25,7 @@ namespace DAL.App.EF.Repositories
 
             foreach (var company in query)
             {
-                company.WorkCategories = await RepoDbContext.Work.AsNoTracking()
+                company.WorkCategories = await RepoDbContext.WorkCategories.AsNoTracking()
                     .Where(l => l.CompanyId == company.Id)
                     .ToListAsync();
                 

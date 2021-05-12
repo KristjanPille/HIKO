@@ -68,7 +68,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.RoleId,
                         principalTable: "AspNetRoles",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -98,7 +98,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.AppUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -119,7 +119,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -139,7 +139,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -157,13 +157,13 @@ namespace DAL.App.EF.Migrations
                         column: x => x.RoleId,
                         principalTable: "AspNetRoles",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_AspNetUserRoles_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -183,7 +183,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -215,7 +215,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.AppUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -240,7 +240,7 @@ namespace DAL.App.EF.Migrations
                         column: x => x.AppUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -272,11 +272,11 @@ namespace DAL.App.EF.Migrations
                         column: x => x.AppUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Work",
+                name: "WorkCategories",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "char(36)", nullable: false),
@@ -290,13 +290,13 @@ namespace DAL.App.EF.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Work", x => x.Id);
+                    table.PrimaryKey("PK_WorkCategories", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Work_Companies_CompanyId",
+                        name: "FK_WorkCategories_Companies_CompanyId",
                         column: x => x.CompanyId,
                         principalTable: "Companies",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -342,31 +342,31 @@ namespace DAL.App.EF.Migrations
                         column: x => x.AdditionalId,
                         principalTable: "Additionals",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Forms_AspNetUsers_AppUserId",
                         column: x => x.AppUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Forms_BodyPostures_BodyPosturesId",
                         column: x => x.BodyPosturesId,
                         principalTable: "BodyPostures",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Forms_Work_WorkCategoryId",
+                        name: "FK_Forms_WorkCategories_WorkCategoryId",
                         column: x => x.WorkCategoryId,
-                        principalTable: "Work",
+                        principalTable: "WorkCategories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Forms_WorkingConditions_WorkingConditionsId",
                         column: x => x.WorkingConditionsId,
                         principalTable: "WorkingConditions",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -447,8 +447,8 @@ namespace DAL.App.EF.Migrations
                 column: "WorkingConditionsId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Work_CompanyId",
-                table: "Work",
+                name: "IX_WorkCategories_CompanyId",
+                table: "WorkCategories",
                 column: "CompanyId");
 
             migrationBuilder.CreateIndex(
@@ -487,7 +487,7 @@ namespace DAL.App.EF.Migrations
                 name: "BodyPostures");
 
             migrationBuilder.DropTable(
-                name: "Work");
+                name: "WorkCategories");
 
             migrationBuilder.DropTable(
                 name: "WorkingConditions");

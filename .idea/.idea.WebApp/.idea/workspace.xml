@@ -27,7 +27,62 @@
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/BLL.App.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App.DTO/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/BLL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/Contracts.BLL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/Contracts.DAL.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/DAL.App.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.DTO/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210508081034_InitialDbCreation.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210508081034_InitialDbCreation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/Domain.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/Extensions.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/PublicApi.DTO.v1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +107,28 @@
     <setting file="file://$PROJECT_DIR$/WebApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/577CC3BF-27B8-4D0A-BB77-D76FDCF24BDA/8b/f6f64229/DomainEntityIdMetadataUser`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F0D1540B-15CA-4134-8C3F-BBB7BE64E9EA/1/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F984B6-B728-4F1F-AEB1-D92B22E270FD/94/d1baf45c/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/F/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Domain.App/WorkCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/BLL.Base/BaseBLL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Domain.App/Company.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54494287-9CC1-4DEE-B61C-0F4FB47AF640/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/94/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F984B6-B728-4F1F-AEB1-D92B22E270FD/94/d1baf45c/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/icd0009-2019s/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DCCDB48F-55F9-4E7D-A8D4-DD58FB9DC075/c0/627044e8/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7864356-F32E-4A3B-A5F7-CB85478AC4CB/69/2479b874/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DDCC9617-0143-4EF5-B4A7-34FC068E8819/13/RoleManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Käveri_ained/Car-Wash/carwash-net-base/BLL.Base/BaseBLL.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/687CD3EF-1206-406C-8B82-2CB02EE0595E/7/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/215F0B9B-5D85-4519-AC78-C9879BE4374E/19/2d06d3b5/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/412/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5CF38DA8-757B-492C-9CCC-50A3F236204C/F/JwtBearerDefaults.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54494287-9CC1-4DEE-B61C-0F4FB47AF640/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/94/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E538456B-4744-4BFC-BF6C-CEEABB336680/9a/ffbaf4c5/EFBaseRepository`5.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Additional.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/BodyPostures.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkingConditions.cs" />
-      <option value="$PROJECT_DIR$/WebApp/Program.cs" />
-      <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Helpers/DataInitializers.cs" />
       <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IFormRepository.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IFormService.cs" />
@@ -93,7 +146,6 @@
       <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/WorkCategoryRepository.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/ICompanyServiceMapper.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IWorkCategoryServiceMapper.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" />
@@ -114,7 +166,6 @@
       <option value="$PROJECT_DIR$/BLL.App.DTO/Company.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
       <option value="$PROJECT_DIR$/Domain/Domain.App/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/DAL.App.DTO/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/BLL.App.DTO/WorkCategory.cs" />
@@ -122,6 +173,13 @@
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
       <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/LangStrTranslation.cs" />
+      <option value="$PROJECT_DIR$/Domain/Domain.App/LangStr.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/LangStr.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.DTO/LangStrTranslation.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -216,7 +274,9 @@
       <workItem from="1618663726756" duration="43392000" />
       <workItem from="1619244424742" duration="27287000" />
       <workItem from="1619766191219" duration="6656000" />
-      <workItem from="1619855962885" duration="28391000" />
+      <workItem from="1619855962885" duration="28398000" />
+      <workItem from="1620649188027" duration="7557000" />
+      <workItem from="1620842959190" duration="290000" />
     </task>
     <servers />
   </component>

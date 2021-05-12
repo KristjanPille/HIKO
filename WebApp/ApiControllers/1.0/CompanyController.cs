@@ -143,8 +143,7 @@ namespace WebApp.ApiControllers._1._0
         {
             var userIdTKey = User.IsInRole("admin") ? null : (Guid?) User.UserId();
 
-            var company =
-                await _bll.Companies.FirstOrDefaultAsync(id, userIdTKey);
+            var company = await _bll.Companies.FirstOrDefaultAsync(id, userIdTKey);
             
             if (company == null)
             {
