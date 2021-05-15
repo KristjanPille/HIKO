@@ -163,6 +163,8 @@ namespace WebApp.ApiControllers._1._0
         /// Post a Form
         /// </summary>
         /// <param name="form"></param>
+        /// <param name="companyId"></param>
+        /// <param name="workCategoryId"></param>
         /// <returns></returns>
         [HttpPost]
         [Route("admin")]
@@ -171,7 +173,7 @@ namespace WebApp.ApiControllers._1._0
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "admin")]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(V1DTO.Form))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(V1DTO.MessageDTO))]
-        public async Task<ActionResult<Form>> PostAdminForm(V1DTO.Form form)
+        public async Task<ActionResult<Form>> PostAdminForm(V1DTO.Form form, [FromQuery(Name = "companyId")] Guid? companyId, [FromQuery(Name = "workCategoryId")] Guid? workCategoryId)
         {
             form.AppUserId = User.UserId();
             form.BodyPostures.AppUserId = User.UserId();
@@ -185,6 +187,20 @@ namespace WebApp.ApiControllers._1._0
             // Calculates end result
             var calculatedForm = _bll.Forms.CalculateFormResult(bllEntity);
 
+            if (companyId != null && workCategoryId != null)
+            {
+                 if (!await _bll.WorkCategories.ExistsAsync(workCategoryId.Value, User.UserId()))
+                 {
+                     return NotFound(new V1DTO.MessageDTO($"Current user does not have WorkCategory with this id {workCategoryId}"));
+                 }
+                 var workCategory = await _bll.WorkCategories.FirstOrDefaultAsync(workCategoryId.Value);
+                 workCategory.Forms.Add(calculatedForm);
+                 workCategory.AverageScore =  _bll.WorkCategories.WorkCategoryAverageScore(workCategory);
+                 
+                 await _bll.WorkCategories.UpdateAsync(workCategory);
+                 await _bll.SaveChangesAsync();
+            }
+            
             _bll.Forms.Add(calculatedForm);
             await _bll.SaveChangesAsync();
             form.Id = bllEntity.Id;

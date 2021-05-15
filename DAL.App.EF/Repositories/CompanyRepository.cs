@@ -17,22 +17,17 @@ namespace DAL.App.EF.Repositories
         {
         }
         
-        public virtual async Task<IEnumerable<DTO.Company>> GetAllAsync(object? userId = null, bool noTracking = true)
+        public override async Task<IEnumerable<DTO.Company>> GetAllAsync(object? userId = null, bool noTracking = true)
         {
-            List<Domain.App.Company> comapnies = new List<Domain.App.Company>();
-
             var query = PrepareQuery(userId, noTracking);
-
-            foreach (var company in query)
-            {
-                company.WorkCategories = await RepoDbContext.WorkCategories.AsNoTracking()
-                    .Where(l => l.CompanyId == company.Id)
-                    .ToListAsync();
-                
-                comapnies.Add(company);
-            }
-            var result = comapnies.Select(e => Mapper.Map(e));
+            query = query
+                .Include(g => g.WorkCategories)
+                .ThenInclude(g => g.Forms);
+            
+            var domainItems = await query.ToListAsync();
+            var result = domainItems.Select(e => Mapper.Map(e));
             return result;
+
         }
     }
 }

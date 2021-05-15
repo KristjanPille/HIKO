@@ -17,6 +17,16 @@ namespace BLL.App.Services
         {
             
         }
+        public double WorkCategoryAverageScore(DTO.WorkCategory workCategory)
+        {
+            var averageScore = 0.0;
+            if (workCategory.Forms.Count > 0)
+            {
+                averageScore += workCategory.Forms.Sum(form => form.TotalPoints);
 
+                averageScore /= workCategory.Forms.Count;
+            }
+            return averageScore;
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace Contracts.BLL.App.Services
 {
     public interface IWorkCategoryService : IBaseEntityService<WorkCategory>, IWorkCategoryRepositoryCustom<WorkCategory>
     {
+        double WorkCategoryAverageScore(WorkCategory workCategory);
     }
 }

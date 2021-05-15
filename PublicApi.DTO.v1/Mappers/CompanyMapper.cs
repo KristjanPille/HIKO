@@ -6,6 +6,12 @@ namespace PublicApi.DTO.v1.Mappers
     {
         public CompanyMapper()
         {
+            MapperConfigurationExpression.CreateMap<BLL.App.DTO.Form, Form>().ReverseMap()
+                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
+                .ForMember(dest => dest.BodyPostures, act => act.MapFrom(src => src.BodyPostures))
+                .ForMember(dest => dest.Additional, act => act.MapFrom(src => src.Additional))
+                .ForMember(dest => dest.WorkingConditions, act => act.MapFrom(src => src.WorkingConditions));
+            
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.WorkCategory, WorkCategory>().ReverseMap()
                 .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Name, act => act.MapFrom(src => src.Name))
@@ -14,7 +20,6 @@ namespace PublicApi.DTO.v1.Mappers
                 .ForMember(dest => dest.AverageScore, act => act.MapFrom(src => src.AverageScore));
             
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.Company, Company>().ReverseMap()
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
                 .ForMember(dest => dest.Name, act => act.MapFrom(src => src.Name))
                 .ForMember(dest => dest.RegisterCode, act => act.MapFrom(src => src.RegisterCode))
                 .ForMember(dest => dest.WorkCategories, act => act.MapFrom(src => src.WorkCategories))

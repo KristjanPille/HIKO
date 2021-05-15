@@ -64,12 +64,16 @@ namespace BLL.App.Mappers
             
             MapperConfigurationExpression.CreateMap<Company, DTO.Company>().ReverseMap()
                 .ForMember(dest => dest.Id, act => act.MapFrom(src => src.Id))
-                .ForMember(dest => dest.AppUser, act => act.MapFrom(src => src.AppUser))
                 .ForMember(dest => dest.Name, act => act.MapFrom(src => src.Name))
                 .ForMember(dest => dest.RegisterCode, act => act.MapFrom(src => src.RegisterCode))
                 .ForMember(dest => dest.WorkCategories, act => act.MapFrom(src => src.WorkCategories))
                 .ForMember(dest => dest.AppUserId, act => act.MapFrom(src => src.AppUserId));
 
+            MapperConfigurationExpression.CreateMap<BLL.App.DTO.WorkCategory, DAL.App.DTO.WorkCategory>();
+            MapperConfigurationExpression.CreateMap<BLL.App.DTO.WorkCategory, DAL.App.DTO.WorkCategory>();
+            
+            MapperConfigurationExpression.CreateMap<BLL.App.DTO.Company, DAL.App.DTO.Company>();
+            MapperConfigurationExpression.CreateMap<BLL.App.DTO.Company, DAL.App.DTO.Company>();
 
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.BodyPostures, DAL.App.DTO.BodyPostures>();
             MapperConfigurationExpression.CreateMap<BLL.App.DTO.BodyPostures, DAL.App.DTO.BodyPostures>();
