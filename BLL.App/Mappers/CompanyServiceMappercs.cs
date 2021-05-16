@@ -8,7 +8,10 @@ namespace BLL.App.Mappers
     {
         public CompanyServiceMapper()
         {
-            MapperConfigurationExpression.CreateMap<DALAppDTO.Identity.AppUser, BLLAppDTO.Identity.AppUser>();
+            MapperConfigurationExpression.CreateMap<DALAppDTO.Additional, BLLAppDTO.Additional>().ReverseMap();
+            MapperConfigurationExpression.CreateMap<DALAppDTO.WorkCategory, BLLAppDTO.WorkCategory>().ReverseMap();;
+            MapperConfigurationExpression.CreateMap<DALAppDTO.Form, BLLAppDTO.Form>().ReverseMap();;
+            MapperConfigurationExpression.CreateMap<DALAppDTO.Identity.AppUser, BLLAppDTO.Identity.AppUser>().ReverseMap();
 
             Mapper = new Mapper(new MapperConfiguration(MapperConfigurationExpression));
         }

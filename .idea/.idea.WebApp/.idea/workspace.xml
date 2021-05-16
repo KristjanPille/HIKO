@@ -29,10 +29,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Services/CompanyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/CompanyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Services/WorkCategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Services/WorkCategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/ICompanyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/ICompanyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/Services/IWorkCategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/Services/IWorkCategoryService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" afterDir="false" />
@@ -108,7 +104,6 @@
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/Domain/Domain.App/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/DAL.App.DTO/WorkCategory.cs" />
-      <option value="$PROJECT_DIR$/BLL.App.DTO/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
@@ -124,17 +119,18 @@
       <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ILangStrTranslationRepositoryCustom.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/LangStrRepository.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/LangStrTranslationRepository.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Services/CompanyService.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/ICompanyService.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IWorkCategoryService.cs" />
-      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/WorkCategoryRepository.cs" />
       <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Services/WorkCategoryService.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" />
+      <option value="$PROJECT_DIR$/BLL.App.DTO/WorkCategory.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -231,7 +227,7 @@
       <workItem from="1619766191219" duration="6656000" />
       <workItem from="1619855962885" duration="28398000" />
       <workItem from="1620649188027" duration="7557000" />
-      <workItem from="1620842959190" duration="16549000" />
+      <workItem from="1620842959190" duration="22342000" />
     </task>
     <servers />
   </component>
@@ -256,6 +252,23 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApp/ApiControllers/1.0/CompanyController.cs</url>
+          <line>86</line>
+          <properties documentPath="C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\WebApp\ApiControllers\1.0\CompanyController.cs" initialLine="86" containingFunctionPresentation="method 'PutCompany'">
+            <startOffsets>
+              <option value="3361" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3382" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#BLL.App.DTO.Form" memberName="BodyPosturePoints" />

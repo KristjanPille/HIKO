@@ -22,8 +22,15 @@ namespace DAL.App.EF.Repositories
             var query = PrepareQuery(userId, noTracking);
             query = query
                 .Include(g => g.WorkCategories)
-                .ThenInclude(g => g.Forms);
-            
+                .ThenInclude(f => f.Forms)
+                .ThenInclude(f => f.WorkingConditions)
+                .Include(g => g.WorkCategories)
+                .ThenInclude(f => f.Forms)
+                .ThenInclude(f => f.Additional)
+                .Include(g => g.WorkCategories)
+                .ThenInclude(f => f.Forms)
+                .ThenInclude(f => f.BodyPostures);
+
             var domainItems = await query.ToListAsync();
             var result = domainItems.Select(e => Mapper.Map(e));
             return result;

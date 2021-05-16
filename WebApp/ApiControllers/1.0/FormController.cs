@@ -149,14 +149,9 @@ namespace WebApp.ApiControllers._1._0
 
             // Calculates end result
             var calculatedForm = _bll.Forms.CalculateFormResult(bllEntity);
-            
-            _bll.Forms.Add(calculatedForm);
-            await _bll.SaveChangesAsync();
             form.Id = bllEntity.Id;
 
-            return CreatedAtAction("GetForm",
-                new {id = form.Id, version = HttpContext.GetRequestedApiVersion()?.ToString() ?? "0"},
-                calculatedForm);
+            return CreatedAtAction("GetForm", new {id = form.Id, version = HttpContext.GetRequestedApiVersion()?.ToString() ?? "0"}, calculatedForm);
         }
         
         /// <summary>
