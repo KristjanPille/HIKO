@@ -27,11 +27,14 @@
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/BLLMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/CompanyServiceMappercs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/FormController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +68,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54494287-9CC1-4DEE-B61C-0F4FB47AF640/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E6E6B40B-308C-4FE1-9C93-7C26C144C865/2C2/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/94/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24A88185-3C91-4E69-A515-7BD8B6939D57/fb/71287de0/BaseEntityService`5.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D9F984B6-B728-4F1F-AEB1-D92B22E270FD/94/d1baf45c/BaseMapper`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/kristjan/Desktop/Subjects/Lõputöö/WebApp/WebApp/ApiControllers/1.0/CompanyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/215F0B9B-5D85-4519-AC78-C9879BE4374E/12/3dcb9c89/IBaseRepository`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/icd0009-2019s/carwash-net-base/DAL.Base/Mappers/BaseMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DCCDB48F-55F9-4E7D-A8D4-DD58FB9DC075/c0/627044e8/IBaseRepository`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DDCC9617-0143-4EF5-B4A7-34FC068E8819/13/RoleManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -80,23 +84,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Form.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ICompanyRepository.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/ICompanyRepositoryCustom.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkCategoryRepository.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IWorkCategoryRepositoryCustom.cs" />
-      <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/ICompanyServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IWorkCategoryServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/WorkCategoryServiceMappercs.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IBodyPosturesService.cs" />
-      <option value="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/WorkCategoryMappercs.cs" />
-      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/WorkCategoryController.cs" />
-      <option value="$PROJECT_DIR$/Domain/Domain.App/Company.cs" />
       <option value="$PROJECT_DIR$/DAL.App.DTO/Company.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Company.cs" />
       <option value="$PROJECT_DIR$/WebApp/appsettings.json" />
@@ -106,7 +93,6 @@
       <option value="$PROJECT_DIR$/DAL.App.DTO/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/FormRepository.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Migrations/AppDbContextModelSnapshot.cs" />
-      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/Domain/Domain.App/LangStrTranslation.cs" />
       <option value="$PROJECT_DIR$/Domain/Domain.App/LangStr.cs" />
       <option value="$PROJECT_DIR$/DAL.App.DTO/LangStr.cs" />
@@ -131,6 +117,24 @@
       <option value="$PROJECT_DIR$/BLL.App.DTO/WorkCategory.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/CompanyMapper.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/CompanyRepository.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/UserAccessController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAppUserRepositoryCustom.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/Repositories/IAppUserRepository.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" />
+      <option value="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IAppUserlServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IAppUserServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/AppUserServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Services/AppUserService.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
+      <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IAppUserService.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AdditionalMapper.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" />
+      <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" />
+      <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AppUserRepository.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -227,7 +231,8 @@
       <workItem from="1619766191219" duration="6656000" />
       <workItem from="1619855962885" duration="28398000" />
       <workItem from="1620649188027" duration="7557000" />
-      <workItem from="1620842959190" duration="22342000" />
+      <workItem from="1620842959190" duration="22468000" />
+      <workItem from="1621260896520" duration="6574000" />
     </task>
     <servers />
   </component>

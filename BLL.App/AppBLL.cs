@@ -16,6 +16,9 @@ namespace BLL.App
         public IFormService Forms =>
             GetService<IFormService>(() => new Services.FormService(UOW));
         
+        public IAppUserService AppUsers =>
+            GetService<IAppUserService>(() => new Services.AppUserService(UOW));
+        
         public IWorkingConditionsService WorkingConditions =>
             GetService<IWorkingConditionsService>(() => new Services.WorkingConditionsService(UOW));
         

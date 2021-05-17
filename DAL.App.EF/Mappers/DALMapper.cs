@@ -11,6 +11,8 @@ namespace DAL.App.EF.Mappers
         { 
             // add more mappings
             MapperConfigurationExpression.CreateMap<Domain.App.Identity.AppUser, DAL.App.DTO.Identity.AppUser>();
+            MapperConfigurationExpression.CreateMap<DAL.App.DTO.Identity.AppUser, Domain.App.Identity.AppUser>();
+            
             MapperConfigurationExpression.CreateMap<Domain.App.Form, DAL.App.DTO.Form>();
             MapperConfigurationExpression.CreateMap<DAL.App.DTO.Form, Domain.App.Form>();
             

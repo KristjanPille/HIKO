@@ -15,6 +15,9 @@ namespace DAL.App.EF
         public IFormRepository Forms =>
             GetRepository<IFormRepository>(() => new FormRepository(UOWDbContext));
         
+        public IAppUserRepository AppUsers =>
+            GetRepository<IAppUserRepository>(() => new AppUserRepository(UOWDbContext));
+        
         public IWorkingConditionsRepository WorkingConditions =>
             GetRepository<IWorkingConditionsRepository>(() => new WorkingConditionsRepository(UOWDbContext));
         

@@ -24,6 +24,8 @@ namespace DAL.App.EF
         private readonly IUserNameProvider _userNameProvider;
 
         public DbSet<Form> Forms { get; set; } = default!;
+        
+        public DbSet<AppUser> AppUsers { get; set; } = default!;
         public DbSet<WorkingConditions> WorkingConditions { get; set; } = default!;
         public DbSet<BodyPostures> BodyPostures { get; set; } = default!;
         public DbSet<Additional> Additionals { get; set; } = default!;

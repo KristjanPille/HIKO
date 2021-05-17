@@ -1,7 +1,11 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Contracts.BLL.App;
 using Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using PublicApi.DTO.v1;
 using PublicApi.DTO.v1.Identity;
+using PublicApi.DTO.v1.Mappers;
 
 namespace WebApp.ApiControllers._1._0.Identity
 {
@@ -24,6 +29,8 @@ namespace WebApp.ApiControllers._1._0.Identity
         private readonly UserManager<Domain.App.Identity.AppUser> _userManager;
         private readonly SignInManager<Domain.App.Identity.AppUser> _signInManager;
         private readonly ILogger<AccountController> _logger;
+        private readonly AppUserMapper _mapper = new AppUserMapper();
+        private readonly IAppBLL _bll;
 
         /// <summary>
         /// Constructor
@@ -33,14 +40,29 @@ namespace WebApp.ApiControllers._1._0.Identity
         /// <param name="signInManager"></param>
         /// <param name="logger"></param>
         public AccountController(IConfiguration configuration, UserManager<Domain.App.Identity.AppUser> userManager,
-            SignInManager<Domain.App.Identity.AppUser> signInManager, ILogger<AccountController> logger)
+            SignInManager<Domain.App.Identity.AppUser> signInManager, ILogger<AccountController> logger, IAppBLL bll)
         {
             _configuration = configuration;
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
+            _bll = bll;
         }
 
+        
+        /// <summary>
+        /// Get all Forms
+        /// </summary>
+        /// <returns>Array of Forms</returns>
+        [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "admin")]
+        [Produces("application/json")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<AppUser>))]
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetAccounts()
+        {
+            return Ok((await _bll.AppUsers.GetAllAsync(User.UserId())).Select(e => _mapper.Map(e)));
+        }
+        
         /// <summary>
         /// Endpoint for user log-in (jwt generation)
         /// </summary>

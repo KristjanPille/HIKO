@@ -7,6 +7,7 @@ namespace Contracts.BLL.App
     public interface IAppBLL : IBaseBLL
     {
         IFormService Forms { get; }
+        IAppUserService AppUsers { get; }
         IWorkingConditionsService WorkingConditions { get; }
         IAdditionalService Additionals { get; }
         IBodyPosturesService BodyPosture { get; }
