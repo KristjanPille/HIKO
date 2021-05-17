@@ -27,14 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17d40f0a-92e0-477d-a7f1-609622e61aca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.App/AppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/AppBLL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts.DAL.App/IAppUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/AppUnitOfOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Mappers/DALMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL.App/Mappers/AppUserServiceMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.App/Mappers/AppUserServiceMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL.App.EF/Repositories/AppUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL.App.EF/Repositories/AppUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +122,14 @@
       <option value="$PROJECT_DIR$/Contracts.BLL.App/IAppBLL.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IAppUserlServiceMapper.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Mappers/IAppUserServiceMapper.cs" />
-      <option value="$PROJECT_DIR$/BLL.App/Mappers/AppUserServiceMapper.cs" />
       <option value="$PROJECT_DIR$/BLL.App/Services/AppUserService.cs" />
       <option value="$PROJECT_DIR$/BLL.App/AppBLL.cs" />
       <option value="$PROJECT_DIR$/Contracts.BLL.App/Services/IAppUserService.cs" />
       <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AdditionalMapper.cs" />
-      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" />
       <option value="$PROJECT_DIR$/WebApp/ApiControllers/1.0/Identity/AccountController.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Repositories/AppUserRepository.cs" />
+      <option value="$PROJECT_DIR$/BLL.App/Mappers/AppUserServiceMapper.cs" />
+      <option value="$PROJECT_DIR$/PublicApi.DTO.v1/Mappers/AppUserMapper.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ol8zrJHImtyENjouRusiVAuo7C" />
@@ -156,6 +151,7 @@
     <property name="do_not_show_solution_notification" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Users\kristjan\Desktop\Subjects\Lõputöö\WebApp\WebApp\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp">
@@ -232,7 +228,7 @@
       <workItem from="1619855962885" duration="28398000" />
       <workItem from="1620649188027" duration="7557000" />
       <workItem from="1620842959190" duration="22468000" />
-      <workItem from="1621260896520" duration="6574000" />
+      <workItem from="1621260896520" duration="8012000" />
     </task>
     <servers />
   </component>

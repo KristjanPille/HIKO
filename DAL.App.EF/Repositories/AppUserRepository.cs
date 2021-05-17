@@ -20,8 +20,7 @@ namespace DAL.App.EF.Repositories
         public override async Task<IEnumerable<DTO.Identity.AppUser>> GetAllAsync(object? userId = null, bool noTracking = true)
         {
             var query = PrepareQuery(userId, noTracking);
-            query = query.Include(g => g)
-                .ThenInclude(g => g.Forms);
+            query = query.Include(t => t.Forms);
 
             var domainItems = await query.ToListAsync();
             var result = domainItems.Select(e => Mapper.Map(e));
